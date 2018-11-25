@@ -1,0 +1,135 @@
+.logoo{
+margin-top:25%;
+height:40px;
+width: 40px;
+
+}
+
+
+
+ 
+
+.loginpage{
+    border-radius:2%;
+    height: 420px;
+    width:350px;
+    position: absolute;
+margin: auto;
+    top:95px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+ 
+}
+.loginpage button{
+
+    width: 80%;
+    margin-left:10%;
+    margin-right: 10%;
+
+}
+.loginpage .row{
+width: 80%;
+}
+.loginpage h6{
+    margin-top:10%;
+    width: 80%;
+    margin-left:10%;
+    margin-right: 10%;
+}
+
+.tuslider{
+    background: rgba(0,0,0,0.5);
+}
+
+.registerpage{
+    border-radius:2%;
+    height: 560px;
+    width:350px;
+    position: absolute;
+margin: auto;
+    top:95px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  
+    
+}
+
+.registerpage button{
+
+    width: 80%;
+    margin-left:10%;
+    margin-right: 10%;
+
+}
+.registerpage .row{
+width: 80%;
+}
+.registerpage h6{
+    margin-top:5%;
+    width: 80%;
+    margin-left:10%;
+    margin-right: 10%;
+  
+}
+.inlineicon{
+    vertical-align: bottom;
+    font-size: 18px !important;
+}
+.imagenmd{
+
+border-radius:10%;
+height: 150px;
+width: 150px;
+margin-left: calc(50% - 75px);
+margin-right: calc(50% - 75px);
+margin-top: 30px;
+}
+.gamecontainer{
+    width: 100%;
+    height: 425px;
+    margin-bottom:2%;
+    overflow-y: auto;
+
+}
+.wallpapered{
+background-color: black;
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/BestGames2018.jpg);
+background-size:cover;
+
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .registerpage{
+  margin-top:0px;
+   width: 100%;
+ border-radius: 0px;
+
+  }
+  .gamecontainer{
+    overflow-y: none;
+    height:100%;
+
+  }
+  .loginpage{
+    margin-top:0px;
+    width: 100%;
+    border-radius: 0px;
+
+  }
+
+
+}
+@media only screen and (max-width: 1000px) {
+ 
+    .gamecontainer{
+      overflow-y: none;
+      height:100%;
+  
+    }
+
+  }
